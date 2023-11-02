@@ -1,0 +1,57 @@
+body{
+    padding: 100px;
+    
+}
+.submitarea{
+    margin-top: 50px;
+    padding:60px ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    border-right: 100px ;
+   
+}
+#Transaction{
+    display: none;
+
+}
+
+  
+.deposit{
+  border-radius: 10px;
+  border-width: 20px;
+background-color:rgb(24, 198, 36);
+
+}
+.withdraw{
+    border-radius: 10px;
+    border-width: 20px;
+
+background-color:pink;
+}
+.balance{
+    border-radius: 10px;
+    border-width: 20px;
+
+background-color: orange;
+}
+.Item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+   
+    border-radius: 10px;
+    text-align:left;
+}
+.success{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+     background-color: orange;
+     padding: 10px 20px;
+     border-radius: 5px;
+     color: white;
+     font-weight: 70px;
+
+}
+
